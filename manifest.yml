@@ -1,0 +1,6 @@
+---
+applications:
+- name: phphello
+  memory: 128M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
